@@ -1,0 +1,1 @@
+tengo problemas con el tema de hacer que sea responsive

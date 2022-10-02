@@ -4,117 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
     <title>Hoja de Vida</title>
-    <style>
-        table, th, td{
-            border: 1px solid black;
-
-        }
-    </style>
 </head>
 <body>
-    <!-- Los divs no se si sirven para algo pero se ve mas ordenadito-->
-    <div><!-- La info-->
-            <h1>Informacion general</h1>
-    
-            Nombre: Vicente Rivera <br/>
-            Email:vicenterivera225@gmail.com <br/>
-            Teléfono :986065589 <br/>
-            Ubicación actual: Temuco,Chile <br/>
-            <a target="_blank" href="https://github.com/vcntttt">GitHub:vcntttt</a>
-    </div>
-    
-    <div> <!-- Exp-->
-            <h1>Experiencia (hipotética)</h1>
-            <ul>
-                <li>Tesla, Responsable de contenido digital</li>
-                <li>Me gustaria hacer mantenimiento de computadoras de forma autónoma</li>
+    <section class="main-container">
+        <header class="nav">
+            <h1> My CV</h1>
+            <ul class="nav-menu">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="about.html">About me</a>
+                </li>
+                <li>
+                    <a href="inf.html">Inf-Tec</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contacto</a>
+                </li>
             </ul>
-    </div>
-    
-    <div> <!-- Tabla Habilidades-->
-            <h1>Habilidades técnicas que quiero manejar en un futuro</h1>
-                <table style="width:250px;">
-                    <thead> 
-                    <tr>
-                        <th>Habilidad</th>
-                        <th>Nivel</th>
-                    </tr>
+        </header>
+        </header>
+        <div class="main-box">
+            <h1>Vicente Rivera</h1>
+            <div class="btns">
+                <img src="img/avatar.svg" alt="">
                 
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>JavaScript</td>
-                            <td> Avanzado</td>
-                        </tr>
-                    
-                        <tr>
-                            <td>HTML</td>
-                            <td>Medio</td>
-                        </tr>
-                    
-                        <tr>
-                            <td>CSS</td>
-                            <td>Medio</td>
-                        </tr>
-                        <tr>
-                            <td>Python</td>
-                            <td>Medio</td>
-                        </tr>
-                        <tr>
-                            <td>React</td>
-                            <td>Medio</td>
-                        </tr>
-                        <tr>
-                            <td>Node.js</td>
-                            <td>Medio</td>
-                        </tr>
-                    </tbody>
-                </table>
-        
-
-
-
-    </div>
-
-    <div> <!-- Tabla Intereses-->
-        <h1>Intereses</h1>
-        <table style="width:200px;">
-            <thead>
-                <tr>
-                    <th>Interes</th>
-                    <th> Prioridad</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Desarrollo Web</td>
-                    <td>1</td>
-                </tr>
-                <tr>
-                    <td>Aplicaciones de escritorio</td>
-                    <td>2</td>
-                </tr>
-                <tr>
-                    <td> Data Science</td>
-                    <td>3</td>
-                </tr>
-                <tr>
-                    <td>Hardware y un poquito de electrónica</td>
-                    <td>4</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-<br>
-<br>
-<br>
-    <form>
-        <label for="Email">Email</label>
-        <input type="email" id="Email" name="Email" placeholder="Ingrese su Email"/> <br>
-        <p>Deje un mensaje :D </p> 
-        <textarea cols="30" rows="5" placeholder="Ingrese su mensaje" name="mensaje"></textarea> <br>
-        <button type="submit">Contactar</button>
-    </form>
+                <div class="btn">
+                    <a href="inf.html">Información Técnica</a>
+                </div>
+                <div class="btn">
+                    <a href="about.html">About</a>
+                </div>
+               
+                <div class="btn">
+                    <a href="contact.html">Contacto</a>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
